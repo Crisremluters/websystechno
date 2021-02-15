@@ -3,10 +3,9 @@
 <title> 
 <?php
 &var ="PHP Tutorial";
-echo "&var";
+echo "$var";
 ?>
 </title>
-
 <body>
 
 <?php
