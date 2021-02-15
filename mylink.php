@@ -8,4 +8,4 @@ echo "$var";
 ?>
 
 </body>
-</html>s
+</html>
