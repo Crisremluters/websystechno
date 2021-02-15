@@ -6,6 +6,7 @@
 echo "$var";
 ?>
 </title>
+
 <body>
 
 <?php
