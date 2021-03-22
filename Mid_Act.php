@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 	<?php 
-include("myclass.php")
+include("Class.php")
 
 	?>
 
