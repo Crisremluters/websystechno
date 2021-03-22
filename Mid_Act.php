@@ -16,7 +16,7 @@ echo " I'm a sportscar";
 $lexus = lexus new car ();
 $lexus->set_car("lexus");
 echo "Beep!  I am a lexus: " . $lexus->get_car();
-echo "I am an ordinary car"
+echo "I am an ordinary car";
 
 ?>
 </body>
