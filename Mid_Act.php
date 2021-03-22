@@ -1,24 +1,35 @@
-<!Doctype Html>
+<!DOCTYPE html>
 <html>
-<?php include("Class.php"); ?>
+<head>
+	<title></title>
+</head>
+	<?php 
+include("myclass.php")
+
+	?>
+
 
 <body>
 
+
 <?Php
 
+$ferrari = new car();
+$ferrari->set_Make("Ferrari 488 GTB");
+$ferrari->set_Speed("205 mph");
+echo "Beep! Iam a ".$ferrari->get_Make();
+echo " <br>I run at a speed of ".$ferrari->get_Speed();
+echo "<br>I am a sports car<br><br>";
 
-$ferrari = set_car("Ferrari 488 GTB");
-$ferrari->set_maxspeed("205 mph");
-echo "ferrari's maxspeed is: "$ferrari->get_maxspeed();
-echo " I'm a sportscar";
-<br>
-$lexus->set_car("lexus");
-echo "Beep!  I am a lexus: " . $lexus->get_car();
-echo "I am an ordinary car";
+$lexus = new car();
+$lexus->set_Make("Lexus");
+$lexus->set_Speed("130 mph");
+echo "Beep! Iam a ".$lexus->get_Make();
+echo " <br>I run at a speed of ".$lexus->get_Speed();
+echo "<br>I am an ordinary car<br>";
+
 
 ?>
-  
+
 </body>
 </html>
-
-
